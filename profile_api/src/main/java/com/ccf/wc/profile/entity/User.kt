@@ -1,6 +1,6 @@
 package com.ccf.wc.profile.entity
 
-class User(var name: String,
+data class User(val name: String,
+           val icon: String,
            val gender: Int,
-           val age: Int) {
-}
+           val age: Int)

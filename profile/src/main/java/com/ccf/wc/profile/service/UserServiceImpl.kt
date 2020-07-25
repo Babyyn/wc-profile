@@ -7,12 +7,12 @@ import com.ccf.wc.baselib.core.ProfileConstants
 import com.ccf.wc.profile.entity.User
 
 @Route(path = ProfileConstants.SERVICE_PROFILE)
-class UserServiceImpl: IUserService, IProvider {
+class UserServiceImpl : IUserService, IProvider {
 
     override fun init(context: Context?) {
     }
 
     override fun getUser(): User {
-        return User("Ccf", 1, 29)
+        return User("Ccf", "", 1, 29)
     }
 }
